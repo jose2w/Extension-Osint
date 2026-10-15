@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "OSINT Threat Intel Scanner",
+  "description": "Abre herramientas OSINT para una URL, IP o dominio",
+  "version": "1.0",
+  "permissions": ["tabs"],
+
+  "icons": {
+    "16": "icono.png",
+    "48": "icono.png",
+    "128": "icono.png"
+  },
+
+  "action": {
+    "default_title": "GreenScope",
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icono.png",
+      "48": "icono.png",
+      "128": "icono.png"
+    }
+  }
+}
